@@ -90,8 +90,8 @@ float: left;
 .main-header a:hover {
 	background-color: #F5F5F5;
 	border-bottom: 2px solid #000;
-
 }
+
 .main-header a:visited {
 	color: #000;
 }
@@ -123,11 +123,12 @@ display: none;
 li a {
 	color: #fff !important;
 }
+
+
 li a:hover {
 	background: #000 !important;
-	border-bottom: 2px solid #fff !important;
+	border-bottom: 2px solid #F5F5F5 !important;
 }
-
 
 ul.main-list {
 display: none;
