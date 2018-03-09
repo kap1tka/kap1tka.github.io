@@ -59,6 +59,8 @@ table {
 	text-transform: uppercase;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: 700;
+	height: 60px;
+	position: relative;
 }
 
 nav.main-menu {
@@ -82,6 +84,9 @@ float: left;
 	color: black;
 
 }
+
+
+
 .main-header a:hover {
 	background-color: #F5F5F5;
 	border-bottom: 2px solid #000;
