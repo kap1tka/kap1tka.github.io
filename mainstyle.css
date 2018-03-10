@@ -59,17 +59,10 @@ table {
 	text-transform: uppercase;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: 700;
-/* 	height: 60px; */
+	height: 60px;
 }
 
-nav.main-menu {
 
-}
-
-ul.main-list {
-
-
-}
 .main-list li {
 float: left;
 }
