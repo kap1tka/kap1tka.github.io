@@ -59,8 +59,7 @@ table {
 	text-transform: uppercase;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: 700;
-	height: 60px;
-	position: relative;
+/* 	height: 60px; */
 }
 
 nav.main-menu {
@@ -114,12 +113,6 @@ display: none;
 
 @media only screen and (max-width : 767px) {
 
-
-.user-block {
-
-}
-
-
 li a {
 	color: #fff !important;
 }
@@ -131,7 +124,10 @@ li a:hover {
 }
 
 ul.main-list {
+position: absolute;
+left: 0px;
 display: none;
+width: 100%;
 }
 
 ul.main-list li  {
