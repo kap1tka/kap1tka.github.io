@@ -17,7 +17,7 @@ $(function() {
 $(document).ready(function() {
 	$('#mainHeader').removeClass('mainHeaderFixed');
 	$(window).scroll(function(){
-		if ($(this).scrollTop() > 10) {
+		if ($(this).scrollTop() > 0) {
 			$('#mainHeader').addClass('mainHeaderFixed').fadeIn('fast');
 			$('li a').css('color', '#fff');
 		} else {
@@ -25,5 +25,11 @@ $(document).ready(function() {
 			$('li a').css('color', '#000');
 		};
 	});
+
+});
+
+$(document).ready(function() {
+	$('main').slideUp(0).slideDown(4000)
+
 
 });

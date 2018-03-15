@@ -64,7 +64,7 @@ table {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: 700;
 	height: 56px;
-	background-color: #fff;
+	background-image: linear-gradient(-45deg, #1EBD4E 1%, #275957 100%);
 	margin-bottom: 50px;
 }
 
@@ -74,7 +74,7 @@ table {
 	left: 0;
 	right: 0;
 
-	background-color: #000;
+
 
 }
 
