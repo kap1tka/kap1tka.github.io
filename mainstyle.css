@@ -135,6 +135,7 @@ li a:hover {
 
 ul.main-list {
 position: absolute;
+top: 56px;
 left: 0px;
 display: none;
 width: 100%;
