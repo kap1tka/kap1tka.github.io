@@ -29,7 +29,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-	$('main').slideUp(0).slideDown(4000)
+	$('main').slideUp(0).slideDown(1000)
 
 
 });
